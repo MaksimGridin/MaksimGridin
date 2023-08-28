@@ -1,0 +1,157 @@
+rs/Vika/Documents/Bash_training               ng    
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training
+$ mkdir test3                                       ng
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training                                                  ng
+$ cd test3
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ touch file3.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ touch file4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ touch file5.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ rm file3.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ touch file6.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row1 > file4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row2 >> file4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row3 >> file4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row4 >> fie4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row4 >> file4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ rm fie4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row1 > file5.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row2 >> file5.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row3 >> file5.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row4 >> file5.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row1 > file6.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row2 >> file6.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row3 >> file6.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ echo row4 >> file6.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training/test3
+$ grep -i "row2" file5.txt
+row2
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ grep -r "row" test3
+test3/file4.txt:row1
+test3/file4.txt:row2
+test3/file4.txt:row3
+test3/file4.txt:row4
+test3/file5.txt:row1
+test3/file5.txt:row2
+test3/file5.txt:row3
+test3/file5.txt:row4
+test3/file6.txt:row1
+test3/file6.txt:row2
+test3/file6.txt:row3
+test3/file6.txt:row4
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ grep "row" test3/file6.txt -c
+4
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ find test3 -name "file5.txt"
+test3/file5.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ find test3 -name "file5.txt" -delete
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ echo test >> file4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ rm file4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ echo test >> test3/file4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ sed 's/test/fail/g' test3/file4.txt
+row1
+row2
+row3
+row4
+fail
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ sed 's/test/fail/g' test3/file4.txt -i
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ echo test >> test3/file4.txt
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ ps aux
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMANDIME COMMAND                                                 :27 /usr/bin/ps
+     1476    1418    1476       2932  cons0     197609 10:13:42 /usr/bin/bash:27 /usr/bin/ps
+     1418       1    1418       7480  cons0     197609 10:00:42 /usr/bin/bash
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ kill 666
+bash: kill: (666) - No such process
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ ping artsiomrusau.com
+
+Обмен пакетами с artsiomrusau.com [185.215.4.92] с 32 байтами данных:
+Превышен интервал ожидания для запроса.
+Превышен интервал ожидания для запроса.
+Превышен интервал ожидания для запроса.
+Превышен интервал ожидания для запроса.
+
+Статистика Ping для 185.215.4.92:
+    Пакетов: отправлено = 4, получено = 0, потеряно = 4
+    (100% потерь)
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ ping artsiomrusau.com -n 5
+
+Обмен пакетами с artsiomrusau.com [185.215.4.92] с 32 байтами данных:
+Превышен интервал ожидания для запроса.
+Превышен интервал ожидания для запроса.
+Превышен интервал ожидания для запроса.
+Превышен интервал ожидания для запроса.
+Превышен интервал ожидания для запроса.
+
+Статистика Ping для 185.215.4.92:
+    Пакетов: отправлено = 5, получено = 0, потеряно = 5
+    (100% потерь)
+
+Vika@DESKTOP-OQ5BHLF MINGW64 ~/Documents/Bash_training      
+$ curl -X 'GET' 'https://petstore.swagger.io/v2/store/inventory' -H 'accept:application/json'
+{"sold":3,"string":701,"pending":6,"available":279,"Not Available":1,"Unavailable":1}
