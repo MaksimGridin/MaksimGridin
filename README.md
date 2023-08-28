@@ -5,7 +5,7 @@
 ### 👨‍💻 Обо мне:
 
 Это мое портфолио
-- 📫 Как связаться со мной: [![LinkedIn Badge](https://img.shields.io/badge/-@-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in//) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](https://mail.google.com)
+- 📫 Как связаться со мной: [![LinkedIn Badge](https://img.shields.io/badge/-@-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in//) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](https://)
 
 ---
 
