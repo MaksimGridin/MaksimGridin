@@ -5,14 +5,14 @@
 ### 👨‍💻 Обо мне:
 
 Это мое портфолио
-- 📫 Как связаться со мной: [![LinkedIn Badge](https://img.shields.io/badge/-@-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/макс-гридин-4b684828a/) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](https://)
+- 📫 Как связаться со мной: [![LinkedIn Badge](https://img.shields.io/badge/-@-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/MaksimGridin/) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](https://)
 
 ---
 
 ### 🤝 Социальные сети:
 
   <div id="badges">
-    <a href="https://www.linkedin.com/in//" target="_blank">
+    <a href="https://www.linkedin.com/in/MaksimGridin/" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/2504/2504799.png" width="40" height="40" alt="linkedin" />
     </a>
     <a href="https://t.me/gma05051985" target="_blank">
