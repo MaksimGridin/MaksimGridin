@@ -2,7 +2,7 @@
 
 ---
 
-# Мое резюме: https://docs.google.com/document/d/1fJFdbaxuqLXYvQcZZF0Lk8a6ILwVjzL2pgpYRohoJg4/edit
+# Мое резюме: #018EF5 https://docs.google.com/document/d/1fJFdbaxuqLXYvQcZZF0Lk8a6ILwVjzL2pgpYRohoJg4/edit
 
 ---
 
