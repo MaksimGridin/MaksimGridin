@@ -5,7 +5,7 @@
 # Мое резюме:  
 <div id="badges">
     <a href="https://docs.google.com/document/d/1fJFdbaxuqLXYvQcZZF0Lk8a6ILwVjzL2pgpYRohoJg4/edit" target="_blank">
-      <img src="https://simpleicons.org/?q=#018EF5" width="40" height="40" alt="linkedin" />
+      <img src="https://simpleicons.org/?q=#018EF5" width="40" height="40" alt="#018EF5" />
     </a> 
      </div>
      
