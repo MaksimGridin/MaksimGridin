@@ -2,7 +2,7 @@
 
 ---
 
-# Мое гезюме:[![Resume Badge] (https://docs.google.com/document/d/1fJFdbaxuqLXYvQcZZF0Lk8a6ILwVjzL2pgpYRohoJg4/edit)
+# Мое гезюме:https://docs.google.com/document/d/1fJFdbaxuqLXYvQcZZF0Lk8a6ILwVjzL2pgpYRohoJg4/edit
 
 ---
 
