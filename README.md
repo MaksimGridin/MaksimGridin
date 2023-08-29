@@ -2,7 +2,7 @@
 
 ---
 
-# Мое гезюме:https://docs.google.com/document/d/1fJFdbaxuqLXYvQcZZF0Lk8a6ILwVjzL2pgpYRohoJg4/edit
+# Мое резюме: https://docs.google.com/document/d/1fJFdbaxuqLXYvQcZZF0Lk8a6ILwVjzL2pgpYRohoJg4/edit
 
 ---
 
